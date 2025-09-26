@@ -14,3 +14,5 @@ let booleanIsLoggedIn = Boolean(isloggedIn) // convert number into boolean( 1 in
 console.log(booleanIsLoggedIn);
  // "" => false;
  // "aditya" => true  
+ // *************** operations ******************
+  
