@@ -1,39 +1,31 @@
-const name = "aditya"
-const count = 50
+// Dates
 
-//console.log(name + count + "value");
-//console.log(`my name is ${name} and my repository count is ${count}`);
+let myDate = new Date()
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toLocaleString());
+// console.log(typeof myDate);
 
+// let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
+// let myCreatedDate = new Date("2023-01-14")
+let myCreatedDate = new Date("01-14-2023")
+// console.log(myCreatedDate.toLocaleString());
 
-const gamename = new String('aditya')
-/* console.log(gamename[0]);
-console.log(gamename.__proto__);
-console.log(gamename.length);
-console.log(gamename.toUpperCase());
+let myTimeStamp = Date.now()
 
-*/
-// console.log(gamename.charAt(2));
-// console.log(gamename.indexOf('y'));
+// console.log(myTimeStamp);
+// console.log(myCreatedDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
 
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth() + 1);
+console.log(newDate.getDay());
 
-// const newstring = gamename.substring(0, 4)
-// console.log(newstring);
+// `${newDate.getDay()} and the time `
 
-// const anotherstring = gamename.slice(-5, 2)
-// console.log(anotherstring);
-
-// const newstringone = "   aditya   "
-// console.log(newstringone);
-// console.log(newstringone.trim());
-
-const newad = "aditya%20suryawanshi"
-console.log(newad.replace('%20','_'));
-
-console.log(newad.includes("aditya"));
-
-
-
-
-
-
-
+newDate.toLocaleString('default', {
+    weekday: "long",
+    
+})
