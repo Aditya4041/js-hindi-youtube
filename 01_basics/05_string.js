@@ -29,3 +29,6 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+git pull origin main --rebase
+git push origin main
+git push origin main --force
