@@ -28,6 +28,6 @@ const myArr = [1,2,3,4,5]
 // const myn1 = myArr.slice(1,3) it shows only number of renge
 // console.log(myn1);
 // console.log("b ",myArr);
-// const myn2 = myArr.splice(1,3) ti shows and remove renge elements from main array
+// const myn2 = myArr.splice(1,3) it shows and remove renge elements from main array
 // console.log(myn2);
 // console.log("c" , myArr);
