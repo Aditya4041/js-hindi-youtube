@@ -36,9 +36,19 @@ const users = [
     }
 ]
 // user[1].email
-console.log(user);
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(user);
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty('isloggedin'));
+// console.log(user.hasOwnProperty('isloggedin'));
+
+
+const cource = {
+    name :"js in hindi",
+    price: 900,
+    courceinstructor : "aditya"
+}
+ 
+const {courceinstructor} = cource
+console.log(courceinstructor);
