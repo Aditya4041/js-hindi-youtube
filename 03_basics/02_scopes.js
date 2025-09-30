@@ -35,10 +35,10 @@ if (true) {
         const website = " youtube"
         // console.log(username + website);
     }
-    // console.log(website);
+    // console.log(website); error
 }
 
-// console.log(username);
+// console.log(username);error
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
