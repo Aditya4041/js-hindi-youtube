@@ -9,3 +9,4 @@ for (const key in myobj) {
     console.log(`full form of ${key} is ${myobj[key]}`);
     
 }
+
