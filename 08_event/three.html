@@ -15,6 +15,10 @@
         console.log("aditya",Date.now());
         
     }
-    setInterval(saydate,1000)
+    let intervalId  
+   const Start1 = document.querySelector("#start").addEventListener('click',function(){ intervalId = setInterval(saydate, 1000, "hi")})
+
+   const stop1 = document.querySelector("#stop").addEventListener('click',function(){
+    clearInterval(intervalId) })
 </script>
 </html>
