@@ -20,4 +20,4 @@ Object.prototype.aditya = function(){
     
 }
 
-heropower.aditya()
+heropower.aditya();
